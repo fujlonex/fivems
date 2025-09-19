@@ -1,0 +1,2 @@
+# fivems
+my script

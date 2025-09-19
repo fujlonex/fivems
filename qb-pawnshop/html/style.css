@@ -1,0 +1,44 @@
+body {
+    background: transparent; /* usunięcie przyciemnienia */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* usuwa pasek przewijania */
+}
+
+.hidden {
+    display: none;
+}
+
+#app {
+    background: rgba(26, 26, 26, 0.95); /* panel z lekkim tłem */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    width: 400px;
+    overflow: hidden; /* blokuje scroll w panelu */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #d4af37;
+    color: #000;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffd700;
+}
